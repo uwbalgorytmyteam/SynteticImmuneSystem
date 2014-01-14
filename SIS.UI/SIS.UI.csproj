@@ -51,6 +51,7 @@
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -91,6 +92,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SIS.Algotithms\SIS.Algotithms.csproj">
+      <Project>{e7db7c52-017b-4758-a7cf-5153157c649b}</Project>
+      <Name>SIS.Algotithms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SIS.Common\SIS.Common.csproj">
+      <Project>{e2bc42da-8fa6-4a42-a6f3-355afc1b19e1}</Project>
+      <Name>SIS.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
