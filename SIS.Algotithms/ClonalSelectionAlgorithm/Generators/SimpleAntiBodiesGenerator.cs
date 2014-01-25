@@ -1,48 +1,58 @@
 ﻿using SIS.Algotithms.ClonalSelectionAlgorithm.Population;
-using SIS.Algotithms.ClonalSelectionAlgorithm.Antibodies;
+using SIS.Algotithms.ClonalSelectionAlgorithm.Gens;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SIS.Common;
 
 namespace SIS.Algotithms.ClonalSelectionAlgorithm.Generators
 {
-	public class SimpleAntiBodiesGenerator
+	public class SimpleGensGenerator
 	{
 		private static Random random = new Random();
 
-		public static Antibody GetAntiBody()
+		public static Gen GetSingleGen(AlgorithmOptions options, Func<double, double> funkcja)
 		{
-			throw new NotImplementedException();
+			return GetRandomGen(options, funkcja);
 		}
 
-		public static List<Antibody> GetAntiBodies()
+
+		public static List<Gen> GetGensAsList(AlgorithmOptions options, Func<double, double> funkcja)
 		{
+			var list = new List<Gen>();
 
+			for (int i = 0; i < options.MaxGens; i++)
+			{
+				list.Add(GetRandomGen(options, funkcja));
+			}
 
-			return null;
+			return list;
 		}
 
-		/// <summary>
-		/// Pobiera ilość losowych osobników zależnie od parametru n
-		/// </summary>
-		/// <param name="n">Ilość osobników do wygenerowania</param>
-		/// <returns></returns>
-		public static Populacja GetAntiBodies(int n)
+		private static Gen GetRandomGen(AlgorithmOptions options, Func<double, double> funkcja)
+		{
+			var minValue = (int)options.SectionX_0 * 100;
+			var maxValue = (int)options.SectionX_1 * 100;
+			var number = (double)(random.Next(minValue, maxValue)) / 100;
+			return new Gen
+			{
+				Value = number,
+				FunctionValue = funkcja.Invoke(number)
+			};
+		}
+
+		public static Populacja GetGensAsPopulation(AlgorithmOptions options, Func<double, double> funkcja)
 		{
 			var population = new Populacja();
 
-			for (int i = 0; i < n; i++)
+			for (int i = 0; i < options.MaxGens; i++)
 			{
-				var antibody = new Antibody
-				{
-					AdaptationValue = random.NextDouble()
-				};
+				population.Add(GetRandomGen(options, funkcja));
 			}
 
-
-			return null;
+			return population;
 		}
 	}
 }

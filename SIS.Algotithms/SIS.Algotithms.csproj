@@ -40,7 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClonalSelectionAlgorithm\Algorithm\ClonalSelectionAlgorithm.cs" />
-    <Compile Include="ClonalSelectionAlgorithm\Antibodies\Antibody.cs" />
+    <Compile Include="ClonalSelectionAlgorithm\Gens\Gen.cs" />
     <Compile Include="ClonalSelectionAlgorithm\Generators\SimpleAntiBodiesGenerator.cs" />
     <Compile Include="ClonalSelectionAlgorithm\Population\Populacja.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
