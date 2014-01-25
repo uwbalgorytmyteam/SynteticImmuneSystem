@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIS.Common", "SIS.Common\SI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIS.UI", "SIS.UI\SIS.UI.csproj", "{8C44C229-0F37-469F-9B3F-3B03F9C4541F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{94EFE086-5C88-4ADD-A46A-D43AEBA82A8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8C44C229-0F37-469F-9B3F-3B03F9C4541F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C44C229-0F37-469F-9B3F-3B03F9C4541F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C44C229-0F37-469F-9B3F-3B03F9C4541F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94EFE086-5C88-4ADD-A46A-D43AEBA82A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94EFE086-5C88-4ADD-A46A-D43AEBA82A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94EFE086-5C88-4ADD-A46A-D43AEBA82A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94EFE086-5C88-4ADD-A46A-D43AEBA82A8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
