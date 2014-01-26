@@ -43,6 +43,8 @@
     <Compile Include="ClonalSelectionAlgorithm\Antibodies\Antibody.cs" />
     <Compile Include="ClonalSelectionAlgorithm\Generators\SimpleAntiBodiesGenerator.cs" />
     <Compile Include="ClonalSelectionAlgorithm\Population\Populacja.cs" />
+    <Compile Include="NegativeSelectionAlgorithm\Algorithm\NegativeSelectionAlgorithmClass.cs" />
+    <Compile Include="NegativeSelectionAlgorithm\Population\Cell.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -51,9 +53,7 @@
       <Name>SIS.Common</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="NegativeSelectionAlgorithm\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
