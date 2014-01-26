@@ -12,7 +12,7 @@ namespace SIS.Algotithms.ClonalSelectionAlgorithm.Algorithm
 {
 	public class ClonalSelectionAlgorithm
 	{
-		// Inicjalizuje Singleton
+		// Inicjalizuje Singleton as
 		private readonly static Lazy<ClonalSelectionAlgorithm> clonalAlgorithm = new Lazy<ClonalSelectionAlgorithm>(() => new ClonalSelectionAlgorithm());
 
 
