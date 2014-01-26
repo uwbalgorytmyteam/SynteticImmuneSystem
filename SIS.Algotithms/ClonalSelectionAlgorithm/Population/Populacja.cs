@@ -6,18 +6,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SIS.Algotithms.ClonalSelectionAlgorithm.Population
+namespace SIS.Algotithms.ClonalSelectionAlgorithm.Populations
 {
-	public class Populacja
+	public class Population
 	{
+		/// <summary>
+		/// List genów
+		/// </summary>
 		public List<Gen> Gens { get; set; }
 
-		public Populacja()
+		public Population()
 		{
 			Gens = new List<Gen>();
 		}
 
-		public Populacja(Populacja population)
+		public Population(Population population)
 		{
 			this.Gens = new List<Gen>();
 			foreach (var antibody in population.Gens)
@@ -26,7 +29,7 @@ namespace SIS.Algotithms.ClonalSelectionAlgorithm.Population
 			}
 		}
 
-		public Populacja(List<Gen> antibodies)
+		public Population(List<Gen> antibodies)
 		{
 			this.Gens = new List<Gen>();
 			foreach (var antibody in antibodies)
@@ -35,9 +38,9 @@ namespace SIS.Algotithms.ClonalSelectionAlgorithm.Population
 			}
 		}
 
-		public Populacja Copy(Populacja populacja)
+		public Population Copy(Population populacja)
 		{
-			var copyPopulation = new Populacja();
+			var copyPopulation = new Population();
 
 			foreach (var antibody in populacja.Gens)
 			{
@@ -47,41 +50,79 @@ namespace SIS.Algotithms.ClonalSelectionAlgorithm.Population
 			return copyPopulation;
 		}
 
+		/// <summary>
+		/// Dodaje gen do listy
+		/// </summary>
+		/// <param name="antibody"></param>
+
 		public void Add(Gen antibody) 
 		{
 			Gens.Add(antibody);
 		}
+
+		/// <summary>
+		/// Usuwa gen z listy o indeksie n
+		/// </summary>
+		/// <param name="n"></param>
 		public void Remove(int n) 
 		{
 			Gens.RemoveAt(n);
 		}
-		public void Remove(Gen antibody) 
+
+		/// <summary>
+		/// Usuwa konkretny gen z listy
+		/// </summary>
+		/// <param name="gen"></param>
+		public void Remove(Gen gen) 
 		{
-			Gens.Remove(antibody);
+			Gens.Remove(gen);
 		}
+
+		/// <summary>
+		/// Zwraca gen o indeksie n
+		/// </summary>
+		/// <param name="n"></param>
+		/// <returns></returns>
 		public Gen Get(int n) 
 		{
 			return Gens.ElementAt(n);
 		}
 
+		/// <summary>
+		/// Zwraca listę genów o długości n
+		/// </summary>
+		/// <param name="n"></param>
+		/// <returns></returns>
+		public List<Gen> Take(int n)
+		{
+			return Gens.Take(n).ToList();
+		}
+
+		/// <summary>
+		/// Sortuje populacje rosnąco
+		/// </summary>
 		public void SortDescByProbability()
 		{
 			Gens = Gens.OrderByDescending(key => key.Value).ToList();
 		}
-
+		
+		/// <summary>
+		/// Sortuje populację malejąco
+		/// </summary>
 		public void SortAscByProbability()
 		{
 			Gens = Gens.OrderBy(key => key.Value).ToList();
 		}
 
-		public void CalculateProbability(Gen AntyGen)
+		// Oblicza podobieństwo genom
+		public void CalculateSimilarity(Gen AntyGen)
 		{
 			Gens.ForEach(g =>
 			{
 				var value = Math.Abs(AntyGen.FunctionValue - g.FunctionValue);
 				var procent = (value / AntyGen.FunctionValue);
 				var realProcent = 100 - (procent * 100);
-				g.Probability = (int)realProcent;
+				g.Similarity = (int)realProcent;
 			});
 		}
 	}
