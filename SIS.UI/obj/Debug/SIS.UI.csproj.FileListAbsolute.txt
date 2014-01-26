@@ -1,0 +1,17 @@
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\SIS.UI\bin\Debug\SIS.UI.exe.config
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\SIS.UI\bin\Debug\SIS.UI.exe
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\SIS.UI\bin\Debug\SIS.UI.pdb
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\SIS.UI\bin\Debug\SIS.Algotithms.dll
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\SIS.UI\bin\Debug\SIS.Common.dll
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\SIS.UI\bin\Debug\SIS.Algotithms.pdb
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\SIS.UI\bin\Debug\SIS.Common.pdb
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\SIS.UI\obj\Debug\SIS.UI.csprojResolveAssemblyReference.cache
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\SIS.UI\obj\Debug\MainWindow.baml
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\SIS.UI\obj\Debug\MainWindow.g.cs
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\SIS.UI\obj\Debug\App.g.cs
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\SIS.UI\obj\Debug\SIS.UI_MarkupCompile.cache
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\SIS.UI\obj\Debug\SIS.UI.g.resources
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\SIS.UI\obj\Debug\SIS.UI.Properties.Resources.resources
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\SIS.UI\obj\Debug\SIS.UI.csproj.GenerateResource.Cache
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\SIS.UI\obj\Debug\SIS.UI.exe
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\SIS.UI\obj\Debug\SIS.UI.pdb

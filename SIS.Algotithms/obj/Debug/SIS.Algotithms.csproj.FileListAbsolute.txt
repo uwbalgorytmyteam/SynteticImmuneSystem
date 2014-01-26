@@ -1,0 +1,7 @@
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\SIS.Algotithms\bin\Debug\SIS.Algotithms.dll
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\SIS.Algotithms\bin\Debug\SIS.Algotithms.pdb
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\SIS.Algotithms\bin\Debug\SIS.Common.dll
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\SIS.Algotithms\bin\Debug\SIS.Common.pdb
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\SIS.Algotithms\obj\Debug\SIS.Algotithms.csprojResolveAssemblyReference.cache
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\SIS.Algotithms\obj\Debug\SIS.Algotithms.dll
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\SIS.Algotithms\obj\Debug\SIS.Algotithms.pdb

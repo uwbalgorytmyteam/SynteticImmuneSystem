@@ -1,0 +1,11 @@
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\ConsoleTest\obj\Debug\ConsoleTest.csprojResolveAssemblyReference.cache
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\ConsoleTest\bin\Debug\ConsoleTest.exe
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\ConsoleTest\bin\Debug\ConsoleTest.pdb
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\ConsoleTest\bin\Debug\SIS.Algotithms.dll
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\ConsoleTest\bin\Debug\SIS.Common.dll
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\ConsoleTest\bin\Debug\SIS.UI.exe
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\ConsoleTest\bin\Debug\SIS.Algotithms.pdb
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\ConsoleTest\bin\Debug\SIS.Common.pdb
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\ConsoleTest\bin\Debug\SIS.UI.pdb
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\ConsoleTest\obj\Debug\ConsoleTest.exe
+C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\ConsoleTest\obj\Debug\ConsoleTest.pdb
