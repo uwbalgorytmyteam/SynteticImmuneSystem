@@ -52,7 +52,9 @@ namespace SIS.UI
             int min = Convert.ToInt32(startTbx.Text);
             int max = Convert.ToInt32(koniecTbx.Text);
             int amountOfAntibodies = Convert.ToInt32(antygenyTbx.Text);
-            double tollerance = Convert.ToDouble(odchylenieCbx.SelectedItem as string);
+            var selectedComboBoxItem = odchylenieCbx.SelectedItem as ListBoxItem;
+            var comboBoxValue = selectedComboBoxItem.Content.ToString().Replace(".", ",");
+            double tollerance = Convert.ToDouble(comboBoxValue);
 
             NegativeSelectionAlgorithmClass negativeSelectionAlgorithmClass = new NegativeSelectionAlgorithmClass(min, max, amountOfAntibodies, tollerance);
             
