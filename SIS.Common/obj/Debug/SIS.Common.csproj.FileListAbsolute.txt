@@ -1,5 +1,0 @@
-C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\SIS.Common\bin\Debug\SIS.Common.dll
-C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\SIS.Common\bin\Debug\SIS.Common.pdb
-C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\SIS.Common\obj\Debug\SIS.Common.dll
-C:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\SIS.Common\obj\Debug\SIS.Common.pdb
-c:\Users\Paweł\SkyDrive\Publiczny\OptymalizacjaGlobalna\SynteticImmuneSystem\SIS.Common\obj\Debug\SIS.Common.csprojResolveAssemblyReference.cache
