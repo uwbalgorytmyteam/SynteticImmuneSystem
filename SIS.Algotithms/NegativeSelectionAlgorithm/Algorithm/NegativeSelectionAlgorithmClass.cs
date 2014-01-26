@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using SIS.Algotithms.NegativeSelectionAlgorithm.Population;
+using System.IO;
 
 namespace SIS.Algotithms.NegativeSelectionAlgorithm.Algorithm
 {
     public class NegativeSelectionAlgorithmClass
     {
         #region variables
-        //jebać gita
         public Cell stemCell;          //komórka macierzysta (wzorcowa, antygen)
         public List<Cell> antibodies = new List<Cell>();  //komórki przeciwciał
         private double tollerance;      //tolerancja odchylenia wyrażona w liczbie od 0 do 1 (procenty) 
