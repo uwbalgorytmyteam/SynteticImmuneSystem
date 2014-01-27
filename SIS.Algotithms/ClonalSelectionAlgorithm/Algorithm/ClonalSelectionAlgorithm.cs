@@ -216,11 +216,17 @@ namespace SIS.Algotithms.ClonalSelectionAlgorithm.Algorithm
 				}
 			});
 
-			Populationn.CalculateSimilarity(AntiGen);
+			workingPopulation.CalculateSimilarity(AntiGen);
 
 			// posortowanie i wybranie n1 najlepszych
 			workingPopulation.SortDescByProbability();
-			var bestGens = workingPopulation.Take(Options.nBestGensToTake);
+			var howManyToTake = Options.nBestGensToTake;
+			if (howManyToTake > workingPopulation.Gens.Count)
+			{
+				howManyToTake = workingPopulation.Gens.Count;
+			}
+			var bestGens = workingPopulation.Take(howManyToTake);
+			
 			
 			// dodanie i zastapienie n1 nalepszych
 			var pCount = Populationn.Gens.Count;
@@ -236,8 +242,13 @@ namespace SIS.Algotithms.ClonalSelectionAlgorithm.Algorithm
 		public void DoMetaDynamic()
 		{
 			Populationn.SortAscByProbability();
-			Populationn.Gens.RemoveRange(0, Options.nWorstGenToThrow);
-			for (int i = 0; i < Options.nWorstGenToThrow; i++)
+			var howManyToTake = Options.nWorstGenToThrow;
+			if (howManyToTake > Populationn.Gens.Count)
+			{
+				howManyToTake = Populationn.Gens.Count;
+			}
+			Populationn.Gens.RemoveRange(0, howManyToTake);
+			for (int i = 0; i < howManyToTake; i++)
 			{
 				Populationn.Add(SimpleGensGenerator.GetSingleGen(Options, Function));
 			}
